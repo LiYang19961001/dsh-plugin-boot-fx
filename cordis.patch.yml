@@ -1,0 +1,6 @@
+# Bundle patch for dsh-plugin-boot-fx: one Host row whose package also ships the
+# Client half that paints the full-screen boot splash. The Host half is inert.
+- insert:
+    - id: plugin-boot-fx
+      name: dsh-plugin-boot-fx
+      config: {}
